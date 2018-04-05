@@ -1,5 +1,5 @@
 function route(pathname) {
-    console.log("About to route a request for " + pathname);
+    console.log("About to route a request to " + pathname);
 }
 
-exports.route = route;
+exports.route = route; 
