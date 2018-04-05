@@ -3,7 +3,7 @@ function route(handle, pathname) {
     if (typeof handle[pathname] === 'function') {
         return handle[pathname]();
     } else {
-        console.log("Request handler " + pathname + " not found.");
+        console.log("No request handler found for " + pathname );
         return "404 Not Found";
     }
 }
