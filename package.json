@@ -1,0 +1,23 @@
+{
+  "name": "node-begin",
+  "version": "1.0.0",
+  "description": "Programs from Node Beginner Book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjluartes/node-begin.git"
+  },
+  "author": "fred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjluartes/node-begin/issues"
+  },
+  "homepage": "https://github.com/fjluartes/node-begin#readme",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  }
+}
